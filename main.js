@@ -25,3 +25,6 @@ sr.reveal(".main-btn",{delay:860, origin: "left"});
 sr.reveal(".share",{delay:950, origin: "bottom"});
 
 sr.reveal(".home-img",{delay:1000, origin: "right"});
+
+let date = new Date ().getFullYear();
+document.getElementById("year").innerHTML = date;
